@@ -22,6 +22,9 @@ on:
     paths:
       - 'pdf_input/**'
 
+permissions:
+  contents: write
+
 jobs:
   rotate-pdf:
     runs-on: ubuntu-latest
